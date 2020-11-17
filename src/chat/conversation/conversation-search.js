@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Chat-Search.css';
+import './conversation-search.css';
 
 function ChatSearch() {
     return (
