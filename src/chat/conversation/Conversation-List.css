@@ -2,4 +2,6 @@
     grid-area: conversation-list;
     background: #17004d;
     overflow-y: scroll;
+    scrollbar-width: none;
+    height: 100%;
 }
