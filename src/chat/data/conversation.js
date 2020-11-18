@@ -74,3 +74,5 @@ export const conversations = [
     },
 ];
 
+export const selectedConversation={title:'Eric Pekmah'}
+

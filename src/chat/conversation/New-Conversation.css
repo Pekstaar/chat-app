@@ -5,32 +5,18 @@
 
     
   }
-
-  #new-message-container span{
-    background-color: gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-5);
-    border-radius: 50%;
+  .avt:hover{
+    cursor: pointer;
   }
   
   #new-message-container {
     display: grid;
-    grid: 40px / 40px;
     align-content: center;
+    justify-content: flex-end;
     grid-area: new-message-container;
     border-top: 1px solid rgba(0,0,0,0.25);
     border-radius: 0 0 0 10px;
     padding: 0 15px;
   }
   
-  #new-message-container a {
-    display: grid;
-    place-content: center center;
-    background: #eee;
-    border-radius: 100%;
-    color: #002C88;
-    text-decoration: none;
-    font-size: 3.6rem;
-  }
+  
