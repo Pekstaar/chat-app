@@ -4,15 +4,20 @@ import ConversationItem from "./conversation-item";
 
 import "./Conversation-List.css";
 
-const ConversationList = (props) => {
-  const selectedConversationIndex = 0;
-  //maps eavh chatting person on to the conversation list
-  const conversationItems = props.conversations.map((conversation, index) => {
-    return <ConversationItem 
-        key={index} 
-        isActive = {selectedConversationIndex===index} 
-        conversation={conversation} 
-    />;
+const ConversationList = ({
+  conversations,
+  selectedConversationId,
+  onConversationItemSelected,
+}) => {
+  const conversationItems = conversations.map((conversation) => {
+    return (
+      <ConversationItem
+        key={conversation.id}
+        onConversationItemSelected={onConversationItemSelected}
+        isActive={conversation.id === selectedConversationId}
+        conversation={conversation}
+      />
+    );
   });
   return <div id="conversation-list">{conversationItems}</div>;
 };
