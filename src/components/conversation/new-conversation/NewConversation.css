@@ -1,0 +1,20 @@
+#new-message-container {
+  background: #2f019cef;
+  font-size: 26px;
+  color: whitesmoke;
+
+  
+}
+.avt:hover{
+  cursor: pointer;
+}
+
+#new-message-container {
+  display: grid;
+  align-content: center;
+  justify-content: flex-end;
+  grid-area: new-message-container;
+  border-top: 1px solid rgba(0,0,0,0.25);
+  border-radius: 0 0 0 10px;
+  padding: 0 15px;
+}
