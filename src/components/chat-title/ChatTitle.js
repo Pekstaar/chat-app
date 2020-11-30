@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 import trash from "../../images/icons/trash-logo.svg";
 
-import "./Chat-Title.css";
+import './ChatTitle.css';
 
-function ChatTitle(props) {
-  return (
-    <div id="chat-title">
-      <span>{props.selectedConversation.title}</span>
+const ChatTitle = ({ selectedConversation }) => {
+    return (
+        
+        <div id="chat-title">
+      <span>{selectedConversation.title}</span>
       <div
         style={{
           width: "32px",
@@ -20,7 +21,7 @@ function ChatTitle(props) {
         <img style={{ width: "100%" }} src={trash} alt="Delete Conversation" />
       </div>
     </div>
-  );
+    );
 }
 
 export default ChatTitle;

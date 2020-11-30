@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import conversationState from './conversations';
+import conversationState from './Conversations';
 
 export default combineReducers({
   conversationState

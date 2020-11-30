@@ -1,10 +1,7 @@
-
 import React from 'react';
-//import classNames from 'classnames';
+import classNames from 'classnames';
 
-import './message.css';
-
-const classNames = '';
+import './Message.css';
 
 const Message = ({ isMyMessage, message }) => {
     const messageClass = classNames('message-row', {
