@@ -8,6 +8,8 @@
   scrollbar-width: none;
 }
 
+
+/* 
 .message-row {
   display: grid;
   grid-template-columns: 70%;
@@ -63,4 +65,4 @@
   color: #111;
   border: 1px solid #ddd;
   border-radius: 14px 14px 14px 0;
-}
+} */
